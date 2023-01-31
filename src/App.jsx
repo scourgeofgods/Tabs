@@ -45,12 +45,6 @@ function App() {
             <div className="d-flex flex-column align-items-center heading-text justify-content-center  p-3">
               <h1>Tabs</h1>
               <hr className="w-50 border-1 border-bottom border-2 border-white" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
-                qui. Natus doloremque magnam tempore dolorum perspiciatis, nobis
-                repudiandae odit, alias sapiente sint fuga nesciunt possimus
-                voluptatum totam!
-              </p>
             </div>
           </div>
         </div>
