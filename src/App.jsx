@@ -48,9 +48,15 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="row text-lg-start  gy-3 text-center">
+        <div className="row text-lg-start h-50 border text-center">
           {/* btn Container */}
-          <div className="col-lg-4 d-flex flex-lg-column justify-content-center  gap-3">
+          <div className="col-lg-4 d-flex flex-lg-column justify-content-center align-items-center h-100 gap-3">
+            {" "}
+            <div className="text-center ">
+              <h3>{title}</h3>
+              <h4>{company}</h4>
+              <p>{dates}</p>
+            </div>
             {jobs.map((job, index) => {
               return (
                 <button
@@ -65,12 +71,7 @@ function App() {
               );
             })}
           </div>
-          <div className="col-lg-8 d-flex flex-column">
-            <div className="text-lg-start ms-lg-5 text-center">
-              <h3>{title}</h3>
-              <h4>{company}</h4>
-              <p>{dates}</p>
-            </div>
+          <div className="col-lg-8 d-flex flex-column justify-content-center ">
             {duties.map((duty, index) => {
               return (
                 <div key={index} className="row justify-content-center">
