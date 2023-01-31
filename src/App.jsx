@@ -36,6 +36,19 @@ function App() {
       </div>
     );
   }
+  if (error) {
+    return (
+      <div>
+        <div className="container">
+          <div className="row my-5 text-center">
+            <div className="col-md-12">
+              <h1>There is an Error</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
   const { id, company, title, dates, duties } = jobs[value];
   return (
     <div className="tabs">
